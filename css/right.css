@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right_c {
+    position: fixed;
+    top: 594px;
+    bottom: 200px;
+    z-index: 99;
+    right: 0;
+    font-size: 12px;
+}
+
+.one {
+    position: relative;
+    margin-bottom: 3px;
+    /* top: -153px; */
+    display: block;
+}
+
+.one img {
+    width: 72px;
+    border: 0;
+}
+
+.two {
+    display: block;
+    width: 72px;
+    height: 82px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+}
+
+.two i {
+    width: 29px;
+    height: 29px;
+    background: url("../img/sp1.png") no-repeat 0 -363px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    left: 50%;
+    margin-left: -14.5px;
+}
+
+.new_peo {
+    line-height: 63px;
+    font-size: 14px;
+    margin: 8px auto 0;
+    position: relative;
+}
+
+.new_peo::after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 6px;
+    bottom: -10px;
+    width: 60px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.three {
+    width: 72px;
+    height: 140px;
+    position: relative;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.three_a {
+    width: 72px;
+    height: 64px;
+}
+
+.three_a img {
+    width: 72px;
+    height: 64px;
+}
+
+.downText1 {
+    line-height: 17px;
+    color: #666;
+    background: #fff;
+}
+
+.downText2 {
+    line-height: 17px;
+    color: #BC3B3B;
+    background: #fff;
+
+}
+
+.three::after {
+    content: "";
+    display: block;
+    left: 6px;
+    bottom: -129px;
+    width: 60px;
+    position: absolute;
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+.four {
+    width: 72px;
+    height: 78px;
+    background: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+}
+
+.four i {
+    width: 26px;
+    height: 27px;
+    background: url("../img/sp1.png") no-repeat 0 -527px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.four i:hover {
+    background: url("../img/sp1.png") no-repeat 0 -455px;
+}
+
+.yinc {
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    right: 62px;
+    top: -68px;
+    cursor: default;
+    line-height: 20px;
+    display: none;
+}
+
+.yx_main {
+    width: 370px;
+    height: 220px;
+    background:
+        #FFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0 2px 4px 0 #7f7f7f;
+    position: relative;
+}
+
+.yx_he {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 26px;
+    color:
+        #FFF;
+    margin-top: -1px;
+    margin-left: -1px;
+    background: url("../img/hea.png") no-repeat;
+}
+
+.close {
+    width: 10px;
+    height: 10px;
+    background: url("../img/c2.png") no-repeat 0 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.yx_body {
+    cursor: default;
+    line-height: 20px;
+}
+
+.yx_desc {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputWrap {
+    width: 286px;
+    height: 34px;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.inputWrapa {
+    width: 184px;
+    height: 22px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #F8F8F8;
+    border: 1px solid #DDD;
+    border-right: none;
+    float: left;
+    outline: 0;
+}
+
+.mash {
+    width: 80px;
+    height: 34px;
+    background-color: #B4A078;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.tip {
+    color: #d4282d;
+    font-size: 14px;
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+
+.yx_foot {
+    margin-top: 31px;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.yx-privilege {
+    width: 122px;
+    float: left;
+}
+
+.yx-text {
+    font-size: 14px;
+    color: #B4A078;
+}
+
+.five {
+    display: block;
+    width: 72px;
+    height: 82px;
+    background-color:
+        #fff;
+    color:
+        #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    position: relative;
+}
+
+.five i {
+    height: 31px;
+    width: 32px;
+    background: url("../img/sp1.png") no-repeat 0 -128px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.five i:hover {
+    background: url("../img/sp1.png") no-repeat 0 -46px;
+}
+
+.six {
+    width: 70px;
+    height: 60px;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-top: 14px;
+    bottom: 0;
+    position: relative;
+}
+
+.six i {
+    height: 15px;
+    width: 24px;
+    background: url("../img/sp1.png") no-repeat 0 -299px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.six i:hover {
+    background: url("../img/sp1.png") no-repeat 0 -249px;
+}
+
+.six:hover .new_peo {
+    color: #B4A078
+}
+
+.five:hover .new_peo {
+    color: #B4A078
+}
+
+.four:hover .new_peo {
+    color: #B4A078
+}
+
+.left_c {
+    position: fixed;
+    top: 598px;
+    width: 110px;
+    border: 1px solid #E2DED6;
+    display: block;
+    opacity: 1;
+    will-change: transform;
+    transform: translateZ(0);
+    z-index: 98;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    left: 5%;
+}
+
+.first {
+    width: 108px;
+    position: relative;
+    font-size: 16px;
+    color: #BB3343;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    font-weight: 700;
+    cursor: default;
+    padding: 0;
+    background: url("../img/le1.png") no-repeat bottom;
+}
+
+.first::before {
+    content: "";
+    display: block;
+    width: 8px;
+    border-bottom: 2px solid #BB3343;
+    position: absolute;
+    bottom: 18px;
+    left: 85px;
+    z-index: 1;
+    left: 15px;
+}
+
+.first::after {
+    content: "";
+    display: block;
+    width: 8px;
+    border-bottom: 2px solid #BB3343;
+    position: absolute;
+    bottom: 18px;
+    left: 85px;
+    z-index: 1;
+    right: 15px;
+}
+
+.second {
+    width: 108px;
+    height: 36px;
+    padding: 1px 11px 0;
+    text-align: left;
+    position: relative;
+    display: table;
+    cursor: pointer;
+    color: #BB3343;
+    font-weight: bold;
+}
+
+.second::after {
+    content: '';
+    display: block;
+    width: 88px;
+    border-bottom: 1px solid #E2DED6;
+    position: absolute;
+    bottom: -1px;
+    left: 11px;
+    z-index: 1;
+}
+
+.name {
+    vertical-align: middle !important;
+    display: table-cell !important;
+    line-height: 14px !important;
+    font-size: 12px !important;
+    padding-left: 36px !important;
+    color: #333;
+    font-weight: bold !important; 
+    text-align: left !important;
+    cursor: pointer !important;
+}
+
+
+.left_c li img {
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+}
+.second span:hover{
+    color: #BB3343 !important;
+}

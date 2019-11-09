@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/yy5.png",
+        "img1": "/img/yy1.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥52",
+        "tx": "",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "超薄羽柔婴儿纸尿裤尿不湿",
+        "price": "52",
+        "price1": "￥69"
+     
+      },
+      {
+        "img": "/img/yy6.png",
+        "img1": "/img/yy2.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥178",
+        "tx": "起",
+        "txts": "仅剩12天",
+        "txt1": "超值价",
+        "tit": "蜂窝超薄一次性防溢乳垫 100片/袋",
+        "price": "19.9",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/yy7.png",
+        "img1": "/img/yy3.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥14.9",
+        "tx": "起",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "木糖醇手口湿巾 10抽",
+        "price": "14.9",
+        "price1": "￥19"
+       
+      },
+      {
+        "img": "/img/yy8.png",
+        "img1": "/img/yy4.jpg.webp",
+        "title": "狂欢特惠",
+        "tx": "",
+        "txt": "¥459",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "彩棉婴儿床品14件套",
+        "price": "49.9",
+        "price1": "￥79.9"
+     
+      }
+  ]

@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/tt6.png",
+        "img1": "/img/tt1.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥52",
+        "tx": "",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "网易智造强劲交流风扇",
+        "price": "199",
+        "price1": ""
+     
+      },
+      {
+        "img": "/img/tt7.png",
+        "img1": "/img/tt2.png",
+        "title": "限时购",
+        "txt": "¥258",
+        "tx": "起",
+        "txts": "11月4日 0点开抢",
+        "txt1": "超值价",
+        "tit": "多功能私享按摩椅",
+        "price": "1299",
+        "price1": "￥2299"
+       
+      },
+      {
+        "img": "/img/tt8.png",
+        "img1": "/img/tt3.jpg.webp",
+        "title": "限时购",
+        "txt": "¥30.9",
+        "tx": "起",
+        "txts": "11月4日 0点开抢",
+        "txt1": "狂欢特惠",
+        "tit": "网易智造多功能蒸汽拖把",
+        "price": "49",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/tt10.png",
+        "img1": "/img/tt4.png",
+        "title": "11月10日",
+        "tx": "",
+        "txt": "22点生效",
+        "txts": "抢全场8折券",
+        "txt1": "狂欢特惠",
+        "tit": "网易有道翻译蛋",
+        "price": "688",
+        "price1": ""
+     
+      }
+  ]

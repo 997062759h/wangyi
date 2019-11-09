@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 1090px
+}
+.swip1{
+    width: 1090px;
+    float: left;
+}
+
+.right_jian {
+    position: absolute;
+    z-index: 9;
+    top: 130px !important;
+    width: 50px !important;
+    height: 50px !important;
+    cursor: pointer !important;
+    opacity: 80 !important;
+    border-radius: 500px !important;
+    background-color: #E2C199;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 24px !important;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: #f5f5f5;
+}
+
+.banner_main {
+    width: 1090px;
+    height: 310px;
+    margin: 0 auto;
+
+}
+
+.index {
+    font-size: 12px;
+    color: #333;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fenge {
+    background-position: 0 -1093px;
+    height: 11px;
+    width: 5px;
+    margin: 0 5px;
+    background: url("../img/sprite.png") no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.fenlei {
+    position: relative;
+    background: #f5f5f5;
+    width: 100%;
+   
+}
+
+.denlei_main {
+    width: 1090px;
+   
+    position: relative;
+    background-color: #fff;
+
+    margin: 0 auto;
+
+}
+
+.denlei_main_tit {
+    width: 1010px;
+   
+
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.denlei_main_tita {
+    border-top: none;
+    line-height: 1;
+    padding-top: 20px;
+    overflow: hidden;
+    border-bottom: 1px dotted #eaeaea;
+}
+
+.fenleia {
+    font-size: 14px;
+    color: #999;
+    float: left;
+    margin-right: 28px;
+}
+
+.fenleib {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 4px;
+    width: 930px;
+}
+
+.fenleiAa {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fenleiAb {
+    color: #b4a078
+}
+
+.fenleiAa:hover {
+    color: #b4a078
+}
+
+.good {
+    overflow: hidden;
+    padding-top: 30px;
+    width: 1090px;
+    margin: 0 auto;
+    background: #fff
+}
+
+.main {
+    width: 100%;
+    background: #f5f5f5
+}
+
+.good_main {
+    width: 1010px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.good_main_tit {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.f-clearfix {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.f-clearfix span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.desc {
+    font-size: 14px;
+    color:
+        #999;
+    line-height: 1.5;
+}
+
+.oulA {
+    list-style: none;
+    margin-top: 25px;
+    margin-right: -10px;
+}
+
+.oli {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 242px !important;
+    margin-right: 10px;
+    float: left;
+    height: 402px;
+    min-height: 1px;
+    display: block;
+}
+.oli 
+:hover .dd2 {
+    display: block !important;
+}
+
+
+
+.slider_item_A {
+    position: relative;
+    margin-bottom: 8px;
+    overflow: hidden;
+    background-color: transparent;
+
+}
+
+.dd {
+    width: 100%;
+    height: 100%;
+}
+
+.dd img {
+    width: 265px;
+    height: 265px;
+    opacity: 1;
+}
+
+.ss {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 48px;
+    height: 48px;
+}
+
+.low {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    padding-right: 10px;
+    background: url("../img/bj.png") no-repeat;
+}
+
+.lowA {
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    margin-top: -6px;
+    z-index: 1;
+    padding-left: 8px;
+    padding-right: 14px;
+    float: left;
+    border-top-left-radius: 3px;
+    background: url("../img/lowa.png") no-repeat;
+}
+
+.titleA {
+    font-size: 12px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding-top: 0;
+    text-align: center;
+    color:
+        #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.subTitle {
+    font-size: 14px;
+    height: 20px;
+    line-height: 14px;
+    margin-top: -1px;
+    font-weight: 700;
+    text-align: center;
+    color:
+        #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.promContent {
+    color: #fff;
+    text-align: left;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 4px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.prdtTags {
+    height: 20px;
+    font-size: 0;
+    color:#fff;
+    width: 200px;
+    margin: 0 auto 3px;
+    overflow: hidden;
+}
+
+.nameQ {
+    margin-bottom: 4px;
+    height: 20px;
+    padding: 0 10px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+
+.priceA {
+    font-size: 13px;
+    line-height: 13px;
+    color: #d4282d;
+    padding: 1px 0 9px;
+    text-align: center;
+
+}
+
+.retailPrice {
+    position: relative;
+    top: 1px;
+    line-height: 13px;
+    height: 13px;
+    padding: 0;
+}
+
+.counterPrice {
+    font-size: 12px;
+    color: #999;
+    top: 2px;
+    text-decoration: line-through;
+
+}
+
+.yu {
+    text-decoration: line-through
+}
+
+
+.oli:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+    background-color: #f4f0ea;
+
+}
+
+.nameQ span:hover {
+    color: #b4a078;
+}
+
+.slider_item:hover .dd2 {
+    display: block !important
+}
+
+.heng {
+    line-height: 1;
+    text-align: center;
+    font-size: 13px;
+}
+
+.hr {
+    display: block;
+    width: 130px;
+    height: 1px;
+    padding: 0;
+    margin: 6px auto 14px;
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.desca {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 18px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

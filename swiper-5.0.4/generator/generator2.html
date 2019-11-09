@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body></body>
+    <script>
+    // https://api.github.com/users/lokep
+   
+    function * gen(){
+         let val=yield "lokep"
+         yield axios.get(`https://api.github.com/users/${val}`)
+    } 
+
+    var g1=gen()
+    var userName=g1.next().value
+    // next() 括号中的参数  指向的时上一次执行的结果
+    g1.next("lokep").value.then(res=>{
+        console.log(res.data)
+    })
+    
+        
+    </script>
+</body>
+</html>

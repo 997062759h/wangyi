@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/pl5.png",
+        "img1": "/img/pl1.jpg.webp",
+        "title": "限时购",
+        "txt": "¥62",
+        "tx": "起",
+        "txts": "11月9日 0点开抢",
+        "txt1": "狂欢特惠",
+        "tit": "大英博物馆 富岳三十六景 笔帘",
+        "price": "79",
+        "price1": ""
+     
+      },
+      {
+        "img": "/img/pl6.png",
+        "img1": "/img/pl2.png",
+        "title": "限时购",
+        "txt": "¥149",
+        "tx": "起",
+        "txts": "11月8日 0点开抢",
+        "txt1": "超值价",
+        "tit": "泰国制造 护颈按摩 天然乳胶枕",
+        "price": "199",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/pl7.png",
+        "img1": "/img/pl3.jpg.webp",
+        "title": "11月10日",
+        "txt": "22点生效",
+        "tx": "",
+        "txts": "抢全场8折券",
+        "txt1": "狂欢特惠",
+        "tit": "4味可选 日本制造 天然草本睡眠足贴 ",
+        "price": "69",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/pl8.png",
+        "img1": "/img/pl4.jpg.webp",
+        "title": "11月10日",
+        "tx": "",
+        "txt": "22点生效",
+        "txts": "抢全场8折券",
+        "txt1": "狂欢特惠",
+        "tit": "惊奇队长 呼叫器软胶钥匙扣 漫威",
+        "price": "25",
+        "price1": ""
+     
+      }
+  ]

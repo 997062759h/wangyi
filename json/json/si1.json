@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/dd8.png",
+        "img1": "/img/dd1.jpg.webp",
+        "title": "11.11",
+        "txt": "定金预售",
+        "tx": "",
+        "txts": "99抵409 仅剩7天",
+        "txt1": "狂欢特惠",
+        "tit": "浓缩即食燕窝4盒囤货装",
+        "price": "999",
+        "price1": "￥1309"
+     
+      },
+      {
+        "img": "/img/dd7.png",
+        "img1": "/img/dd2.jpg.webp",
+        "title": "限时购",
+        "txt": "¥78",
+        "tx": "起",
+        "txts": "11月6日 0点开抢",
+        "txt1": "狂欢特惠",
+        "tit": "柔风黄油曲奇",
+        "price": "98",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/dd6.png",
+        "img1": "/img/dd3.png",
+        "title": "限时购",
+        "txt": "¥139",
+        "tx": "起",
+        "txts": "11月8日 0点开抢",
+        "txt1": "定金预售",
+        "tit": "新西兰制造麦卢卡蜜MG250+ 250克",
+        "price": "199",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/dd5.png",
+        "img1": "/img/dd4.jpg.webp",
+        "title": "限时购",
+        "tx": "起",
+        "txt": "¥368",
+        "txts": "11月6日 0点开抢",
+        "txt1": "超值价",
+        "tit": "男/洁净燕窝（燕盏）",
+        "price": "428",
+        "price1": ""
+     
+      }
+  ]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/right.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="right_c" >
+        <!-- 第一 -->
+        <div class="ri">
+            <a class="one">
+                <img src="../img/jiu.gif" alt="">
+            </a>
+            <a class="two">
+                <i></i>
+                <p class="new_peo">新人有礼</p>
+            </a>
+            <a class="three">
+                <div class="three_a"><img src="../img/canvas.png" alt=""></div>
+                <p class="downText1">扫码领</p>
+                <p class="downText2">APP1000元</p>
+                <p class="downText2">新人礼</p>
+            </a>
+            <div class="four">
+                <i></i>
+                <p class="new_peo">订阅电子刊</p>
+                <div class="yinc">
+                    <div class="yx_main">
+                        <div class="yx_he">严选生活美学</div>
+                        <div class="close" title="关闭"></div>
+                        <div class="yx_body">
+                            <div class="yx_desc">订阅电子刊，第一时间获取严选最新资讯</div>
+                            <div class="inputWrap">
+                                <input type="text" class="inputWrapa" placeholder="输入您的电子邮件">
+
+                                <div class="mash">立即订阅</div>
+                            </div>
+                            <div class="tip"></div>
+                        </div>
+                        <div class="yx_foot">
+                            <div class="yx-privilege"> <i style="background-position: 0 -563px; height: 14px;
+                            width: 14px;"></i> <span class="yx-text">专属优惠</span> </div>
+                            <div class="yx-privilege"> <i style="background-position: 0 -24px;height: 12px;
+                            width: 14px;"></i> <span class="yx-text">尊享优先购</span> </div>
+                            <div class="yx-privilege"> <i style="background-position: 0 -431px; height: 14px;
+                            width: 14px;"></i> <span class="yx-text">好货不错过</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="five">
+                <i></i>
+                <p class="new_peo">在线客服</p>
+            </div>
+        </div>
+        <div class="six" style="display: none">
+            <i></i>
+            <p class="new_peo" style="line-height: 18px;">回顶部</p>
+        </div>
+    </div>
+    <ul class="left_c">
+        <li class="first">热销榜</li>
+        <li class="second">
+            <img src="../img/a.png" alt="">
+            <span class="name" style="color:#BB3343 ">全站<br>热销榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a1.png" alt="">
+            <span class="name">居家<br>生活榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a2.png" alt="">
+            <span class="name">服饰<br>鞋包榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a3.png" alt="">
+            <span class="name">美食<br>酒水榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a4.png" alt="">
+            <span class="name">数码<br>家电榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a5.png" alt="">
+            <span class="name">个护<br>清洁榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a6.png" alt="">
+            <span class="name">运动<br>旅行榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a7.png" alt="">
+            <span class="name">母婴<br>亲子榜</span>
+        </li>
+        <li class="second">
+            <img src="../img/a8.png" alt="">
+            <span class="name">全球<br>特色榜</span>
+        </li>
+    </ul>
+</body>
+<script>
+    var close = document.getElementsByClassName("close")[0]
+    var yinc = document.getElementsByClassName("yinc")[0]
+    close.onclick = function () {
+        yinc.style.display = "none"
+    }
+    var four = document.getElementsByClassName("four")[0]
+    four.onmouseover = function () {
+        yinc.style.display = "block"
+    }
+    four.onmouseout = function () {
+        yinc.style.display = "none"
+    }
+
+
+ 
+    $(window).scroll(function () {
+        if ($("html,body").scrollTop() >= 800) {
+            
+            $(".ri").css("display", "block")
+            $(".left_c").css("top", "62px")
+            $(".right_c").css("top", "62px")
+        } else {
+            $(".ri").css("display", "block")
+            $(".left_c").css("top", "598px")
+            $(".right_c").css("top", "594px")
+        }
+        if ($("html,body").scrollTop() >= 900) {
+            $(".six").css("display", "block")
+        } else {
+
+            $(".six").css("display", "none")
+        }
+    })
+    $(".six").click(function () {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 0, function () {
+            $(".right_c").css("top", "594px")
+            $(".left_c").css("top", "598px")
+
+        })
+    })
+
+</script>
+
+</html>

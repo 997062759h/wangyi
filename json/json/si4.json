@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/oo5.png",
+        "img1": "/img/oo1.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥52",
+        "tx": "",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "时尚按摩筋膜枪",
+        "price": "1252",
+        "price1": ""
+     
+      },
+      {
+        "img": "/img/oo6.png",
+        "img1": "/img/oo2.jpg.webp",
+        "title": "限时购",
+        "txt": "¥258",
+        "tx": "起",
+        "txts": "11月4日 0点开抢",
+        "txt1": "超值价",
+        "tit": "双层防风防潮3-4人速开帐篷",
+        "price": "349",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/oo7.png",
+        "img1": "/img/oo3.jpg.webp",
+        "title": "限时购",
+        "txt": "¥30.9",
+        "tx": "起",
+        "txts": "11月4日 0点开抢",
+        "txt1": "狂欢特惠",
+        "tit": "蒸汽热敷眼罩",
+        "price": "49",
+        "price1": ""
+       
+      },
+      {
+        "img": "/img/oo8.png",
+        "img1": "/img/oo4.jpg.webp",
+        "title": "限时购",
+        "tx": "起",
+        "txt": "¥475.2",
+        "txts": "11月4日 0点开抢",
+        "txt1": "狂欢特惠",
+        "tit": "女式紧身运动长裤",
+        "price": "99",
+        "price1": ""
+     
+      }
+  ]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        单线程JS如何完成一个异步操作
+        ==》事件，回调函数，延时器
+
+        Promise
+
+        Generator
+     -->
+     <script>
+     function * gen(){
+        yield "JavaScript";
+        yield "HtmlCss3";
+        yield "Vue.js"
+        return "so easy"
+     }
+     var g1=gen()
+    console.log(g1.next())//{value: "JavaScript", done: false}
+    console.log(g1.next())//{value: "HtmlCss3", done: false}
+    console.log(g1.next())//{value: "Vue.js", done: false}
+    console.log(g1.next())//{value: "so easy", done: true}
+    console.log(g1.next())//{value: undefined, done: true}
+
+
+
+    var arr=[...gen()]
+    console.log(arr) // ["JavaScript", "HtmlCss3", "Vue.js"]
+    // ===>不包括返回值
+
+
+    /*
+    Class
+    Promise
+    解构赋值
+    模块化
+    ...=>扩展字符串
+    对象的简洁语法
+
+    ===》对Math对象增加了哪些方法
+    ===》新增字符串，数组的方法
+
+    Promise   generator  async
+
+    Symbol:独一无二的
+
+    new Set()===》
+
+    map()  filter() some()   every()   reduce()
+    */ 
+     </script>
+</body>
+</html>

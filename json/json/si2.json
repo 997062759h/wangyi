@@ -1,0 +1,54 @@
+[
+    {
+        "img": "/img/qq5.png",
+        "img1": "/img/qq1.jpg.webp",
+        "title": "11.11",
+        "txt": "定金预售",
+        "tx": "",
+        "txts": "29抵159 仅剩7天",
+        "txt1": "定金购",
+        "tit": "春风super-man男用套装",
+        "price": "239",
+        "price1": "￥369"
+     
+      },
+      {
+        "img": "/img/qq6.png",
+        "img1": "/img/qq2.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥178",
+        "tx": "起",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "春风鱼儿欢女用按摩棒",
+        "price": "179",
+        "price1": "￥299"
+       
+      },
+      {
+        "img": "/img/qq7.png",
+        "img1": "/img/qq3.jpg.webp",
+        "title": "狂欢特惠",
+        "txt": "¥299",
+        "tx": "起",
+        "txts": "仅剩12天",
+        "txt1": "狂欢特惠",
+        "tit": "网易智造活性炭暖脚器",
+        "price": "299",
+        "price1": "￥999"
+       
+      },
+      {
+        "img": "/img/qq8.png",
+        "img1": "/img/qq4.jpg.webp",
+        "title": "限时购",
+        "tx": "起",
+        "txt": "¥49.9",
+        "txts": "限2500件 仅剩3小时",
+        "txt1": "限时购",
+        "tit": "吸水速干硅藻土浴室地垫",
+        "price": "49.9",
+        "price1": "￥79.9"
+     
+      }
+  ]
